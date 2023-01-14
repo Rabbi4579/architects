@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #131313;
+  --secondary-color: #727272;
+  --btn-color: #ff900e;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.section-title {
+  color: var(--primary-color);
+  font-size: 45px;
+  font-weight: 700;
+}
+.section-description {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.common-btn {
+  background-color: var(--btn-color);
+  color: #ffffff;
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+/* .container {
+  width: 1140px;
+} */
+/* ---------utilities css end--------- */
+
+/* ---------header part css--------- */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+/* -------banner part css-------- */
+.banner-content{
+    max-width: 862px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+.banner-content .common-btn{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.banner-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-title span{
+    display: block;
+}
+.banner-content .section-description{
+
+}
+.banner-img{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-img img{
+    max-width: 1140px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ------Media query styles------ */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* -----header section------ */
+    .header-top{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+       }
+       .banner-content {
+        margin-top: 60px;
+        padding: 0 10px;
+    }
+    .banner-title {
+        font-size: 57px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+   /* -----header section------ */
+   .header-top{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   }
+   .section-title {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .banner-content {
+    margin-top: 60px;
+    padding: 0 10px;
+}
+.banner-title {
+    font-size: 31px;
+    font-weight: 700;
+}
+.banner-content .section-description {
+    font-size: 14px;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+
+}
