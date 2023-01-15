@@ -144,59 +144,57 @@ nav ul li a {
 }
 
 /* -----------features list part css----------- */
-.love-enjoy{
+.love-enjoy {
   display: flex;
   gap: 146px;
-  
 }
-.love-enjoy-items{
+.love-enjoy-items {
   width: 50%;
-  
 }
-.love-enjoy-items .section-description{
+.love-enjoy-items .section-description {
   margin-bottom: 30px;
   margin-top: 24px;
 }
-.love-enjoy-item{
+.love-enjoy-item {
   max-width: 514px;
   width: 100%;
-  padding: 20px 20px 5px 20px ;
+  padding: 20px 20px 5px 20px;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-border-radius: 8px;
-margin-bottom: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
-.sec-title{
+.sec-title {
   margin-left: 21px;
 }
-.border{
+.border {
   width: 10px;
   height: 106px;
   background-color: var(--btn-color);
   position: absolute;
 }
-.item-title{
+.item-title {
   color: var(--primary-color);
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 7px;
 }
-.love-enjoy-img{
+.love-enjoy-img {
   width: 50%;
   position: relative;
 }
-.love-enjoy-img img{
+.love-enjoy-img img {
   max-width: 708px;
   width: 100%;
   height: 982px;
 }
-.love-enjoy-img span{
+.love-enjoy-img span {
   display: block;
   font-size: 25px;
   font-weight: 500;
 }
-.Experience-btn{
+.Experience-btn {
   position: absolute;
-  bottom: -5PX;
+  bottom: -5px;
   font-size: 65px;
   font-weight: 700;
   left: -95px;
@@ -204,31 +202,30 @@ margin-bottom: 15px;
 }
 
 /* ---------statistics part start--------- */
-.statistics{
+.statistics {
   margin-top: 130px;
 }
-.statistics-items{
+.statistics-items {
   display: flex;
   justify-content: space-around;
 }
-.statistics .section-description{
+.statistics .section-description {
   max-width: 600px;
-
 }
 
-.stat-item{
+.stat-item {
   width: 241px;
   height: 241px;
   border: 2px solid var(--btn-color);
   position: relative;
   margin-top: 60px;
   border-radius: 8px;
-  transition: all linear .3s;
+  transition: all linear 0.3s;
 }
-.stat-item:hover{
+.stat-item:hover {
   border-color: lightskyblue;
 }
-.stat-inner-item{
+.stat-inner-item {
   width: 169px;
   height: 136px;
   position: absolute;
@@ -238,13 +235,13 @@ margin-bottom: 15px;
   text-align: center;
 }
 
-.ratings{
+.ratings {
   color: #424242;
   margin-top: 7px;
   font-size: 45px;
   font-weight: 600;
 }
-.award{
+.award {
   color: var(--secondary-color);
   font-weight: 600;
   font-size: 19px;
@@ -252,37 +249,37 @@ margin-bottom: 15px;
 }
 
 /* ------sponsors section styles----- */
-.sponsors{
+.sponsors {
   margin-top: 180px;
   text-align: center;
 }
-.sponsors .section-description{
+.sponsors .section-description {
   max-width: 542px;
   margin: 20px auto 0;
 }
-.sponsors-items{
+.sponsors-items {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 /* about us section styles */
-.about-us{
+.about-us {
   margin-top: 100px;
+  text-align: center;
 }
-.about-header{
-  max-width: 900px;
+.about-header {
+  max-width: 7200px;
   margin: 0 auto;
   text-align: center;
 }
-.about-header .section-description{
+.about-header .section-description {
   margin: 20px 20px 0 0;
-
 }
-.about-item .section-description{
+.about-item .section-description {
   margin-right: 15px;
 }
-.about-header .section-description span{
+.about-header .section-description span {
   font-size: 30px;
   font-weight: 700;
 }
@@ -291,39 +288,33 @@ margin-bottom: 15px;
   margin-bottom: 20px;
   color: var(--secondary-color);
 }
-.about-items{
+.about-items {
   display: flex;
-  text-align: center;
   gap: 30px;
   margin-top: 50px;
 }
-.about-item{
+.about-item {
   border-right: 1px solid var(--btn-color);
-  
 }
-.about-item:nth-child(4){
+.about-item:nth-child(4) {
   border-right: none;
 }
 /* footer section styles */
-footer{
+footer {
   margin-bottom: 212px;
 }
-.footer-container{
+.footer-container {
   max-width: 1140px;
   width: 100%;
-  background-color: #FFF4E7;
+  background-color: #fff4e7;
   padding: 38px 0;
   text-align: center;
-  margin:130px auto 0;
+  margin: 130px auto 0;
   border-radius: 8px;
-
 }
-.footer-content{
+.footer-content {
   padding: 0 10px;
 }
-
-
-
 
 /* ------Media query styles------ */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -362,33 +353,47 @@ footer{
   /* love and enjoy */
   .love-enjoy {
     display: flex;
-    gap: 146px;
+    gap: 70px;
     flex-direction: column;
     align-items: center;
 }
-.statistics-items{
-  flex-direction: column;
-  align-items: center;
+  .statistics-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-btn {
+    bottom: -70px;
 }
-/* sponsors section */
-.sponsors-items{
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+/* --------statistics section----- */
+.statistics {
+  margin-top: 150px;
+  text-align: center;
 }
-/* about us section */
-.about-items{
-  flex-direction: column;
-  align-items: center;
+.statistics .section-description {
+  margin: 0 auto;
 }
-.about-item{
-  border-right: none;
-  padding: 0 10px;
-}
+  /* sponsors section */
+  .sponsors-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  /* about us section */
+  .about-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-item {
+    border-right: none;
+    padding: 0 10px;
+  }
+  .about-item .icons{
+    margin-left: 10px;
+  }
 }
 
-@media screen and (max-width:576px) {
-  /* -----header section------ */
+@media screen and (max-width: 576px) {
+  /* -----header section ------ */
   .header-top {
     flex-direction: column;
     align-items: center;
@@ -397,8 +402,14 @@ footer{
   .section-title {
     font-size: 40px;
     font-weight: 600;
+    padding: 0 10px;
+  }
+  .section-description{
+    padding: 0 10px;
   }
   nav ul {
+    flex-direction: column;
+    align-items: center;
     gap: 22px;
   }
   .banner-content {
@@ -419,14 +430,14 @@ footer{
     padding: 15px 20px;
   }
 
-  /* --------features css */
+  /* --------features css-------- */
   .features-img {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 24px;
-    width: 50%;
+    width: 100%;
     justify-items: center;
   }
-  
+
   .features {
     flex-direction: column;
     align-items: center;
@@ -436,44 +447,60 @@ footer{
     height: 100%;
   }
   .features-content {
-    width: 50%;
+    width: 100%;
     padding: 0 10px;
-    /* text-align: center; */
-    
+    /*text-align: center; */
   }
-    /* love and enjoy */
-    .love-enjoy {
-      display: flex;
-      gap: 146px;
-      flex-direction: column;
-      align-items: center;
+  /*----------- love and enjoy------------ */
+
+  .love-enjoy {
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .love-enjoy-items {
+    width: 100%;
+  }
+  .border {
+    margin-left: 10px;
+  }
+
+ .item-title{
+  margin-left: 10px;
+ }
+  .love-enjoy-img {
+    width: 100%;
   }
   .Experience-btn {
-    font-size: 48px;
-    padding: 22px 22px;
+    font-size: 38px;
+    font-weight: 600;
+    padding: 17px 20px;
+    bottom: -45px;
+    left: 60px;
 }
+  /* statistics section */
+  .statistics-items {
+    flex-direction: column;
+    align-items: center;
+  }
 
-/* statistics section */
-.statistics-items{
-  flex-direction: column;
-  align-items: center;
+  /* sponsors section */
+  .sponsors {
+    margin-top: 100px;
 }
-
-/* sponsors section */
-.sponsors-items{
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  .sponsors-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  /* aout us section */
+  .about-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-item {
+    border-right: none;
+    padding: 0 10px;
+  }
 }
-/* aout us section */
-.about-items{
-  flex-direction: column;
-  align-items: center;
-}
-.about-item{
-  border-right: none;
-  padding: 0 10px;
-}
-
-} 
-
