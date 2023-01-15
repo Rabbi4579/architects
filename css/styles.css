@@ -143,7 +143,7 @@ nav ul li a {
   margin-bottom: 24px;
 }
 
-/* -----------features list part css----------- */
+/* -----------features love and enjoy part css----------- */
 .love-enjoy {
   display: flex;
   gap: 146px;
@@ -248,7 +248,7 @@ nav ul li a {
   margin-top: 3px;
 }
 
-/* ------sponsors section styles----- */
+/* ------sponsors part css----- */
 .sponsors {
   margin-top: 180px;
   text-align: center;
@@ -263,7 +263,10 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
 }
-/* about us section styles */
+.sponsors-item img {
+  filter: grayscale(1);
+}
+/* ---------about us css--------- */
 .about-us {
   margin-top: 100px;
   text-align: center;
@@ -299,7 +302,7 @@ nav ul li a {
 .about-item:nth-child(4) {
   border-right: none;
 }
-/* footer section styles */
+/*--------- footer part css-------- */
 footer {
   margin-bottom: 212px;
 }
@@ -332,7 +335,7 @@ footer {
     font-size: 57px;
     margin-bottom: 20px;
   }
-  /* ------features---- */
+  /* ------features section---- */
   .features-img {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
@@ -350,35 +353,35 @@ footer {
     margin-top: 10px;
   }
 
-  /* love and enjoy */
+  /* ------love and enjoy section------ */
   .love-enjoy {
     display: flex;
     gap: 70px;
     flex-direction: column;
     align-items: center;
-}
+  }
   .statistics-items {
     flex-direction: column;
     align-items: center;
   }
   .Experience-btn {
     bottom: -70px;
-}
-/* --------statistics section----- */
-.statistics {
-  margin-top: 150px;
-  text-align: center;
-}
-.statistics .section-description {
-  margin: 0 auto;
-}
-  /* sponsors section */
+  }
+  /* --------statistics section----- */
+  .statistics {
+    margin-top: 150px;
+    text-align: center;
+  }
+  .statistics .section-description {
+    margin: 0 auto;
+  }
+  /* ------sponsors section------ */
   .sponsors-items {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
   }
-  /* about us section */
+  /* -------about us section------ */
   .about-items {
     flex-direction: column;
     align-items: center;
@@ -387,7 +390,7 @@ footer {
     border-right: none;
     padding: 0 10px;
   }
-  .about-item .icons{
+  .about-item .icons {
     margin-left: 10px;
   }
 }
@@ -404,7 +407,7 @@ footer {
     font-weight: 600;
     padding: 0 10px;
   }
-  .section-description{
+  .section-description {
     padding: 0 10px;
   }
   nav ul {
@@ -451,7 +454,7 @@ footer {
     padding: 0 10px;
     /*text-align: center; */
   }
-  /*----------- love and enjoy------------ */
+  /*----------- love and enjoy section------------ */
 
   .love-enjoy {
     display: flex;
@@ -466,9 +469,9 @@ footer {
     margin-left: 10px;
   }
 
- .item-title{
-  margin-left: 10px;
- }
+  .item-title {
+    margin-left: 10px;
+  }
   .love-enjoy-img {
     width: 100%;
   }
@@ -478,23 +481,23 @@ footer {
     padding: 17px 20px;
     bottom: -45px;
     left: 60px;
-}
-  /* statistics section */
+  }
+  /* ----------statistics section------- */
   .statistics-items {
     flex-direction: column;
     align-items: center;
   }
 
-  /* sponsors section */
+  /* ----------sponsors section-------- */
   .sponsors {
     margin-top: 100px;
-}
+  }
   .sponsors-items {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
   }
-  /* aout us section */
+  /* ----------aout us section--------- */
   .about-items {
     flex-direction: column;
     align-items: center;
